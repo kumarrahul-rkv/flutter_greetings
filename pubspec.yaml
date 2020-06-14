@@ -1,8 +1,8 @@
 name: flutter_greetings
-description: A new Flutter package project.
+description: To be able to show greeting message depending upon time.
 version: 0.0.1
-author:
-homepage:
+author: Rahul Kumar<rahulverma.rkv@gmail.com>
+homepage: https://github.com/kumarrahul-rkv/flutter_greetings.git
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
