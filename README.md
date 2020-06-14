@@ -1,8 +1,27 @@
 # flutter_greetings
 
-A new Flutter package project.
+A Flutter package which is able to show greeting message depending upon time.
 
 ## Getting Started
+
+    #### import the package:
+
+    `import 'package:flutter_greetings/flutter_greetings.dart';`
+
+    #### example
+
+    `
+    class MyHomePage extends StatelessWidget {
+        @override
+        Widget build(BuildContext context) {
+            return Scaffold(
+                appBar: AppBar(title: Text("Flutter Greetings")),
+                body: Center(
+                child: Text(YonoGreetings.showGreetings()),
+                ));
+        }
+    }
+    `
 
 This project is a starting point for a Dart
 [package](https://flutter.dev/developing-packages/),
