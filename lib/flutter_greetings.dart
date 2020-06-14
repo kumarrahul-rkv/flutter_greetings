@@ -1,7 +1,20 @@
 library flutter_greetings;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+class YonoGreetings {
+  static String showGreetings() {
+    String greeting() {
+      var timeNow = DateTime.now().hour;
+      if (timeNow <= 12) {
+        return 'Good Morning';
+      } else if ((timeNow > 12) && (timeNow <= 16)) {
+        return 'Good Afternoon';
+      } else if ((timeNow > 16) && (timeNow <= 20)) {
+        return 'Good Evening';
+      } else {
+        return 'Good Night';
+      }
+    }
+
+    return greeting();
+  }
 }
