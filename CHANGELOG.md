@@ -1,3 +1,3 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.1] - Date
 
-* TODO: Describe initial release.
+* This is the initial launch of the package. Only show the greetings depending on the current time
