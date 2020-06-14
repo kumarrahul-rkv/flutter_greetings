@@ -1,13 +1,21 @@
 import 'package:flutter_test/flutter_test.dart';
-
 import 'package:flutter_greetings/flutter_greetings.dart';
 
 void main() {
-  test('adds one to input values', () {
-    final calculator = Calculator();
-    expect(calculator.addOne(2), 3);
-    expect(calculator.addOne(-7), -6);
-    expect(calculator.addOne(0), 1);
-    expect(() => calculator.addOne(null), throwsNoSuchMethodError);
+  String greeting() {
+    var timeNow = DateTime.now().hour;
+    if (timeNow <= 12) {
+      return 'Good Morning';
+    } else if ((timeNow > 12) && (timeNow <= 16)) {
+      return 'Good Afternoon';
+    } else if ((timeNow > 16) && (timeNow <= 20)) {
+      return 'Good Evening';
+    } else {
+      return 'Good Night';
+    }
+  }
+
+  test('showing greeting', () {
+    expect(greeting(), YonoGreetings.showGreetings());
   });
 }
