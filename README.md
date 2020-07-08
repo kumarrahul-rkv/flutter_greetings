@@ -3,12 +3,28 @@
 A Flutter package which is able to show greeting message depending upon time.
 
 ## Getting Started
+__________
 
-    #### import the package:
+#### Dependencies
+
+Add this to `pubspec.yaml` file:
+
+    `
+    dependencies:
+        flutter_greetings: ^1.0.0
+    `
+
+#### Install it
+
+Run following command in your terminal
+
+    `$ flutter pub get`
+    
+#### import the package:
 
     `import 'package:flutter_greetings/flutter_greetings.dart';`
 
-    #### example
+#### example
 
     `
     class MyHomePage extends StatelessWidget {

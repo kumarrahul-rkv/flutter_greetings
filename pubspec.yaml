@@ -1,6 +1,6 @@
 name: flutter_greetings
 description: To be able to show greeting message depending upon time.
-version: 1.0.0
+version: 1.0.1
 authors:
   - rahulverma.rkv@gmail.com
 homepage: https://github.com/kumarrahul-rkv/flutter_greetings.git
