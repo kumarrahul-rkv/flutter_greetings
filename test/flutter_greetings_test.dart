@@ -15,6 +15,7 @@ void main() {
     }
   }
 
+  print(greeting());
   test('showing greeting', () {
     expect(greeting(), YonoGreetings.showGreetings());
   });
